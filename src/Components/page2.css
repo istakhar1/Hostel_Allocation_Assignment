@@ -1,0 +1,57 @@
+.page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+.container{
+width: 700px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.Ghostel{
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    
+   
+}
+.Ghostel:hover{
+    cursor: pointer;
+}
+.Bhostel{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(109, 238, 238);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.Bhostel:hover{
+    cursor: pointer;
+}
+
+.gimage{
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
