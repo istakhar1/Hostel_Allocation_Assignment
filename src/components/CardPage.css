@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.top-con {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-msg {
+  text-align: center;
+}

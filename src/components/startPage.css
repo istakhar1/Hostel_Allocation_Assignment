@@ -1,0 +1,34 @@
+.mainCp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+
+.btn--1 {
+  width: 250px;
+  height: 50px;
+  padding: auto;
+  color: rgb(240, 234, 234);
+  background-color: #1b3749;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 5px;
+}
+.btn--1:hover {
+  width: 252px;
+  height: 51px;
+}
+.gBtn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.gicon {
+  padding-top: 2px;
+}
+.red {
+  color: red;
+}
